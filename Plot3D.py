@@ -20,7 +20,7 @@ ax = fig.gca(projection='3d')
 	
 # 1D arrays for x and y coordinates
 	
-n_points = 200
+n_points = 500
 	
 x_min,x_max = -5,5
 	
@@ -48,7 +48,7 @@ Z = np.sin(R)
 	
 # plot the surface.
 	
-surf = ax.plot_surface(X, Y, Z, cmap='magma',linewidth=0, antialiased=True)
+surf = ax.plot_surface(X, Y, Z, cmap='viridis',linewidth=0, antialiased=True)
 	
  
 	
